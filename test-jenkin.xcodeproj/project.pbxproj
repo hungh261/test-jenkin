@@ -19,7 +19,6 @@
 		C2028C0919AAE98D00F32606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2028BEE19AAE98D00F32606 /* Foundation.framework */; };
 		C2028C0A19AAE98D00F32606 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2028BF219AAE98D00F32606 /* UIKit.framework */; };
 		C2028C1219AAE98D00F32606 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2028C1019AAE98D00F32606 /* InfoPlist.strings */; };
-		C2028C1419AAE98D00F32606 /* test_jenkinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2028C1319AAE98D00F32606 /* test_jenkinTests.m */; };
 		C2028C1E19AAEAE900F32606 /* CarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C2028C1D19AAEAE900F32606 /* CarSpec.m */; };
 		C2028C2119AAEAFB00F32606 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = C2028C2019AAEAFB00F32606 /* Car.m */; };
 /* End PBXBuildFile section */
@@ -52,7 +51,6 @@
 		C2028C0719AAE98D00F32606 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C2028C0F19AAE98D00F32606 /* test-jenkinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test-jenkinTests-Info.plist"; sourceTree = "<group>"; };
 		C2028C1119AAE98D00F32606 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C2028C1319AAE98D00F32606 /* test_jenkinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_jenkinTests.m; sourceTree = "<group>"; };
 		C2028C1D19AAEAE900F32606 /* CarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarSpec.m; sourceTree = "<group>"; };
 		C2028C1F19AAEAFB00F32606 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		C2028C2019AAEAFB00F32606 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
@@ -142,7 +140,6 @@
 		C2028C0D19AAE98D00F32606 /* test-jenkinTests */ = {
 			isa = PBXGroup;
 			children = (
-				C2028C1319AAE98D00F32606 /* test_jenkinTests.m */,
 				C2028C0E19AAE98D00F32606 /* Supporting Files */,
 				C2028C1D19AAEAE900F32606 /* CarSpec.m */,
 			);
@@ -298,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2028C1419AAE98D00F32606 /* test_jenkinTests.m in Sources */,
 				C2028C1E19AAEAE900F32606 /* CarSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

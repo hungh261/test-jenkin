@@ -11,5 +11,6 @@
 @interface Car : NSObject
 
 @property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSNumber *velocity;
 
 @end

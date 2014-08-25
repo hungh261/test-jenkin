@@ -12,7 +12,11 @@ describe(@"Car test", ^{
     it(@"Car should has a default name is", ^{
         Car *car = [[Car alloc] init];
         [[car.name should] equal:@"Kiki"];
-        
+    });
+    
+    it(@"Car should has a default velocity is", ^{
+        Car *car = [[Car alloc] init];
+        [[car.velocity should] equal:@22.5];
     });
         
 });

@@ -15,6 +15,7 @@
     self = [super init];
     if (self) {
         self.name = @"Kiki";
+        self.velocity = @22.5;
     }
     return self;
 }
