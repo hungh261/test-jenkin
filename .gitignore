@@ -1,8 +1,37 @@
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control?
-#
-# Pods/
-
+# Xcode
+.DS_Store
+*/build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+*.xccheckout
+.sh
+#CocoaPods
+Pods
+Podfile.lock
+Thumb.db
+#merge file
+project.pbxproj.mergesave
+build/
+calabash.framework
+._*.m
+Prism/Classes/Business/Business Model/DISStaffModel/._DISStaffModel.h
+Prism/Classes/Business/Business Service/Staff Lite/DISStaffDetailService/._DISStaffDetailService.h
+Prism/Classes/Presentation/StaffLite/ViewControllers/DISStaffReportToViewController/._DISStaffReportToViewController.h
+Prism/Classes/Presentation/StaffLite/ViewControllers/DISStaffRoleAssignmentViewController/._DISStaffRoleAssignmentService.h
+Prism/Resource/._MappingClassFromDTOClass.plist
+Prism/Resource/._SlaveEntityClass2ExecutorClass.plist
+Prism/Classes/Data/Data Model/Core Data/._SlaveUser.h
+Prism/Classes/Data/Data Model/Core Data/._User.h
+Prism/Classes/Data/Data Model/DTO/._DISStaffDTO.h
